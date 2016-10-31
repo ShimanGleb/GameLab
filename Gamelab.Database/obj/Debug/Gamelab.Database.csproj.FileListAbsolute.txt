@@ -1,0 +1,14 @@
+C:\PracticeProject\GameLab\Gamelab.Database\bin\Debug\Gamelab.Database.dll.config
+C:\PracticeProject\GameLab\Gamelab.Database\bin\Debug\Gamelab.Database.dll
+C:\PracticeProject\GameLab\Gamelab.Database\bin\Debug\Gamelab.Database.pdb
+C:\PracticeProject\GameLab\Gamelab.Database\bin\Debug\EntityFramework.dll
+C:\PracticeProject\GameLab\Gamelab.Database\bin\Debug\EntityFramework.SqlServer.dll
+C:\PracticeProject\GameLab\Gamelab.Database\bin\Debug\EntityFramework.xml
+C:\PracticeProject\GameLab\Gamelab.Database\bin\Debug\EntityFramework.SqlServer.xml
+C:\PracticeProject\GameLab\Gamelab.Database\obj\Debug\Gamelab.Database.dll
+C:\PracticeProject\GameLab\Gamelab.Database\obj\Debug\Gamelab.Database.pdb
+C:\PracticeProject\GameLab\Gamelab.Database\bin\Debug\GameLab.Data.exe
+C:\PracticeProject\GameLab\Gamelab.Database\bin\Debug\GameLab.Data.pdb
+C:\PracticeProject\GameLab\Gamelab.Database\obj\Debug\Gamelab.Database.csprojResolveAssemblyReference.cache
+C:\PracticeProject\GameLab\Gamelab.Database\obj\Debug\Gamelab.Database.Migrations.CreateTables.resources
+C:\PracticeProject\GameLab\Gamelab.Database\obj\Debug\Gamelab.Database.csproj.GenerateResource.Cache

@@ -1,0 +1,42 @@
+﻿@model List<GameLab.Models.Game>
+
+<link href="~/Content/Category.css" rel="stylesheet"/>
+@{
+    ViewBag.Title = "GiveGames";
+}
+
+<div class="page-header">
+    <h1>Games</h1>
+</div>
+<div class="row">
+    <div class="col-xs-6 col-md-2">
+        <ul class="nav nav-pills nav-stacked navouter">            
+            @foreach (GameLab.Models.Category category in ViewBag.Categories)
+            {
+                if (category.Id == ViewBag.CurrentCategoryId)
+                {
+                    <li class="active">@Html.ActionLink(category.Name, "GetGames/" + category.Name)</li>
+                }
+                else
+                {
+                    <li>@Html.ActionLink(category.Name, "GetGames/" + category.Name)</li>
+                }
+            }
+        </ul>
+    </div>
+
+
+    <div class="gameslist col-xs-6 col-md-8">
+        @{
+            foreach (var game in Model)
+            {
+                <div class="row">
+                    <a class="gamebutton col-xs-8 col-md-8 btn-default game" href="/Category/GetFullGameDescription/@game.Title" role="button">
+                        <h3><strong class="title">@game.Title ( @game.Release.Year )</strong></h3>
+                        <br><div class="description">@game.Description</div>
+                    </a>
+                </div>
+            }
+        }
+    </div>
+</div>

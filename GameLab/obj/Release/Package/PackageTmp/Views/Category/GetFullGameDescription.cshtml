@@ -1,0 +1,13 @@
+﻿<link href="~/Content/GameDescription.css" rel="stylesheet" /><div class="row"><div class="col-md-6">
+    @{
+        GameLab.Models.Game game = Model.Database.GetGameById(Model.CurrentGameId);
+        <h2>@game.Title</h2>
+        <div class="description year">Release: @game.Year</div><br>
+        <div class="description genre">Genre:@for (int i = 0; i < game.GetCategoryAmount(); i++)
+        {
+            @: @Model.Database.GetCategoryNameById(game.GetCategoryId(i))
+        }
+        </div><br>
+        <div class="description">@game.FullDescription</div>
+    }
+</div></div>

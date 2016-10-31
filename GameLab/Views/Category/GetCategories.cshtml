@@ -1,0 +1,16 @@
+﻿@model List<GameLab.Models.Category>
+
+<link href="~/Content/Category.css" rel="stylesheet" />
+@{
+    ViewBag.Title = "Categories";
+}
+
+<div class="page-header">
+    <h1>Categories</h1>
+</div>
+    <ul class="nav nav-pills nav-stacked navouter">                
+        @foreach (var category in Model)
+        {
+            <li>@Html.ActionLink(category.Name, "GetGames/" + category.Name)</li>
+        }
+    </ul>
